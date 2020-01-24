@@ -54,7 +54,7 @@ def total_gross(source)
   totals_index = 0
 
   while totals_index < hash_of_totals.size do
-    total += hash_of_totals[totals_index].value
+    total += hash_of_totals[totals_index].values
 
     totals_index += 1
   end
