@@ -53,11 +53,5 @@ def total_gross(source)
 
   total = hash_of_totals.values.sum
 
-  # while totals_index < hash_of_totals.size do
-  #   total += hash_of_totals[totals_index].values.sum
-  #
-  #   totals_index += 1
-  # end
-
   total
 end
