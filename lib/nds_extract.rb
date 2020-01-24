@@ -53,7 +53,7 @@ def total_gross(source)
   array_of_directors = list_of_directors(source)
   totals_index = 0
 
-  total = hash_of_totals[totals_index].values.sum
+  total = hash_of_totals.values.sum
 
   # while totals_index < hash_of_totals.size do
   #   total += hash_of_totals[totals_index].values.sum
