@@ -53,11 +53,13 @@ def total_gross(source)
   array_of_directors = list_of_directors(source)
   totals_index = 0
 
-  while totals_index < hash_of_totals.size do
-    total += hash_of_totals[totals_index].values
+  total = hash_of_totals[totals_index].values.sum
 
-    totals_index += 1
-  end
+  # while totals_index < hash_of_totals.size do
+  #   total += hash_of_totals[totals_index].values.sum
+  #
+  #   totals_index += 1
+  # end
 
   total
 end
