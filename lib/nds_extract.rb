@@ -50,8 +50,6 @@ def total_gross(source)
   total = 0
 
   hash_of_totals = directors_totals(source)
-  array_of_directors = list_of_directors(source)
-  totals_index = 0
 
   total = hash_of_totals.values.sum
 
