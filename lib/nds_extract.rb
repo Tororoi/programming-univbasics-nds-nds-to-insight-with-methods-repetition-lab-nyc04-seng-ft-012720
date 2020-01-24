@@ -52,7 +52,7 @@ def total_gross(source)
   totals_index = 0
 
   while totals_index < hash_of_totals.size do
-    director = source[director_index]
+    director = hash_of_totals[totals_index]
     result[director[:name]] = gross_for_director(director)
     director_index += 1
   end
