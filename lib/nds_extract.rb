@@ -48,16 +48,16 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   total = 0
-  test_list = []
+
   hash_of_totals = directors_totals(source)
   array_of_directors = list_of_directors(source)
   totals_index = 0
 
-  # while totals_index < hash_of_totals.size do
-  #   test_list = hash_of_totals.values
-  #
-  #   totals_index += 1
-  # end
-  test_list = hash_of_totals.values
-  test_list
+  while totals_index < hash_of_totals.size do
+    total += hash_of_totals[totals_index].value
+
+    totals_index += 1
+  end
+
+  total
 end
