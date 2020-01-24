@@ -30,7 +30,7 @@ def list_of_directors(source)
   director_index = 0
 
   while director_index < source.size do
-    names << source[source_index][:name]
+    names << source[director_index][:name]
     director_index += 1
   end
 
