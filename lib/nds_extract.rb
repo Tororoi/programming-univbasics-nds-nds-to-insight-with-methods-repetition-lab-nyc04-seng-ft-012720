@@ -59,5 +59,5 @@ def total_gross(source)
     totals_index += 1
   end
 
-  hash_of_totals
+  test_list
 end
