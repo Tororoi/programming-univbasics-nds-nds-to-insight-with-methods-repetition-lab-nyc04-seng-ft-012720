@@ -58,4 +58,6 @@ def total_gross(source)
 
     totals_index += 1
   end
+
+  test_list
 end
